@@ -77,22 +77,22 @@ div#post {
 
 /* 分页页面 */
 div#page {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /* 归档页面 */
 div#archive {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /* 标签页面 */
 div#tag {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /* 分类页面 */
 div#category {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /*夜间模式伪类遮罩层透明*/
@@ -129,9 +129,7 @@ div#category {
 }
 /* 页脚透明 */
 #footer {
-  <script id="c_n_script" src="https://blog-static.cnblogs.com/files/xiaokang01/js.js" color="150,150,150" opacity="1" count="75" zindex="-2">if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {} else {}</script>
-  <script src="https://files.cnblogs.com/files/wkfvawl/mouse-click.js"></script>
-  background: transparent !important;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 /* 头图透明 */
@@ -151,7 +149,7 @@ div#category {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #3b70fc;
+  background-color: rgb(91,238,255);
   border-radius: 2em;
 }
 
@@ -160,7 +158,6 @@ div#category {
 }
 
 ::-moz-selection {
-  color: #fff;
   background-color: #3b70fc;
 }
 
